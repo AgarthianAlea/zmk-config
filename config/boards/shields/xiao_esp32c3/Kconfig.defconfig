@@ -1,1 +1,5 @@
+config ZMK_KEYBOARD_NAME
+    default "Taipo-Xiao-C3"
 
+config ZMK_SPLIT
+    default n
