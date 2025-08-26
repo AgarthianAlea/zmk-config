@@ -15,7 +15,7 @@ jobs:
         with:
           submodules: recursive
       - name: West Build
-        uses: zmkfirmware/zmk-build@main
+        uses: zmkfirmware/zmk-config@main
         with:
           board: ${{ matrix.board }}
           shield: ${{ matrix.shield }}
